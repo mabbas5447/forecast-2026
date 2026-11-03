@@ -25,7 +25,7 @@ window.SITE_CONFIG = {
   //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, income and the midterm penalty.",
   //   "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections.",
  method: [
-  "My forecast uses district and state partisanship, incumbency, and the national environment. Separate House and Senate models are fitted on contested races from 2012 through 2020. Spending was excluded because it did not improve out-of-sample accuracy.",
+  "My forecast uses district and state partisanship, incumbency, incumbent seniority, and the national environment. Separate House and Senate models are fitted on contested races from 2012 through 2020. Spending was excluded because it did not improve out-of-sample accuracy.",
   "The national model uses midterm status, presidential approval, income growth, and gas-price changes. October inputs predict a 55.15% national Democratic two-party House vote share. I do not use polls.",
   "I simulate 10,000 elections with a shared national error and separate local errors to estimate seat ranges and majority probabilities."
 ],
